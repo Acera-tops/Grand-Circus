@@ -1,0 +1,59 @@
+* {
+    border: 2px solid cornflowerblue;
+    margin: 5px;
+    padding: 3px;
+    }
+    
+html, body {
+    margin: 0;
+    padding: 0;
+    border: none;
+    }
+
+    body {
+    height: 100vh;
+    }
+
+#head-flex-container {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    flex-direction: row;
+    height: 7%;
+}
+
+h1 {
+    width: 50%;
+}
+
+
+#main-flex-container {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    flex-direction: row;
+    height: 80%;
+}
+
+#main-article {
+    width: 75%;
+    height: 97%;
+}
+
+#sidebar {
+    width:25%;
+    height: 97%;
+}
+
+
+#foot-flex-container {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    flex-direction: row;
+    height: 5%;
+}
+
+#copyright {
+
+}
