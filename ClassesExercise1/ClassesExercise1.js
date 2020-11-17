@@ -30,14 +30,13 @@ class BankAccountWithFee extends BankAccount {
     constructor (balance, interestRate, fee) {
         super (balance, interestRate);
         this.fee = fee;
-        
     }
     applyFee () {
-        BankAccount -= this.fee;
+        this.balance = this.balance - this.fee;
     }
 }
 let aprilBankAccntWFee = new BankAccountWithFee (100, .03, 50);
-aprilBankAccnt.addInterest() + aprilBankAccntWFee.applyFee();
+aprilBankAccnt.addInterest() + aprilBankAccntWFee.applyFee();// need to fix this line
 console.log(aprilBankAccntWFee)
 // CANT GET IT TO CALCULATE THE BALANCE - FEE
 

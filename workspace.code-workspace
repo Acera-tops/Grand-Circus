@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\practice-assessment-1-Acera-tops\\PracticeAssessment"
+		},
+		{
+			"path": "..\\assessment-1-Acera-tops"
+		},
+		{
+			"path": "..\\ChirpusInc-HTML-CSS-Lab2"
+		},
+		{
+			"path": "..\\JS-Lab-1"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Grand-Circus"
+	}
+}

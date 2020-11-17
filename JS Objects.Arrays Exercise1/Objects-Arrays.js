@@ -38,7 +38,7 @@ const opponent = {
 console.log(characters,opponent);
 let chooseCharacter
 do {
-    for (let i = 0 ; i < characters.length ; i++) {
+    for (let i = 0 ; i < characters.length ; i++) { //move to after next chunk of code
         if (characters[i].health <= 0 ) {
             let deadCharacter = characters.splice(i);
             console.log (deadCharacter);
@@ -51,7 +51,8 @@ do {
     choosenCharacter.health -= (Math.floor(Math.random() * 50));
     opponent.health -= (Math.floor(Math.random() * 50));
     console.log(opponent.name, opponent.health, choosenCharacter.name, choosenCharacter.health);
-
+// add messages for dead characters and make sure player cant choose the dead character. 
+//say, you won! when the opponent dies. 
 
     // if (chooseCharacter == "1") {
     //     characters[0].health -= (Math.floor(Math.random() * 50));
