@@ -12,3 +12,23 @@ divHidden.classList.remove('hidden'); //remove class from first div
 divHidden.classList.toggle('hidden'); //toggle to opposite of current state
 
 console.log(div.classList.contains('number-1')); //isnt working
+
+
+// adding and removing from HTML
+const newContent = document.createElement("p"); //create new <p> tag
+newContent.innerText = "Hello";//add text into the new paragraph
+document.body.append(newContent);//adds to end of body
+
+remove()//will remove things from HTML
+parent.removeChild(el)//will also remove from HTML
+
+//Events
+function clickHandler(event) {
+    console.log("Clicked", event);
+}
+Element.addEventListener("event_type", handlerFunction);//handler function intakes a parameter like a click
+
+
+
+
+

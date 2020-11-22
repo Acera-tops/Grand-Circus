@@ -1,0 +1,18 @@
+header {
+    display: flex;
+    background-color:lightgray;
+    justify-content: flex-end;
+}
+
+#burger {
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+#menu {
+    display: none;
+}
+
+#numbers {
+    display: none;
+}
