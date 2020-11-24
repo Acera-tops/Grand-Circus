@@ -8,9 +8,7 @@ burger.addEventListener('click', function(event) {
     console.log("Burger Clicked");
     const menu = document.getElementById('menu');
     console.log(menu);
-    menu.style.display = "flex";
-    // menu.style.border = "10px";   CAN'T STYLE THIS
-
+    menu.style.display = "flex"; //need to finish the design in CSS
 })
 
 numberLink.addEventListener('click', function(event) {
