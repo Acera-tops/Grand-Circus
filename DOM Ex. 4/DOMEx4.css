@@ -1,3 +1,24 @@
+body{
+/* display: flex;
+justify-content: center; */
+}
+
 #how-many {
     width: 70px;
+}
+
+.coin {
+    text-align: center;
+    text-justify: center;
+    border-radius: 50%;
+}
+
+#penny {
+    background-color:#b3773f;
+    /* text-align: center;
+    text-justify: center; */
+    border:2px solid #774e27;
+    height: 100px;
+    width: 100px;
+    /* border-radius: 50%; */
 }
