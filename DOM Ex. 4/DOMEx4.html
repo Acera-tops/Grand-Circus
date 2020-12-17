@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="DOMEx4.css">
     </head>
     <body>
-        <form>
+        <form id="make-money">
             <p>
                 <label>
                     How Many? 
@@ -19,7 +19,7 @@
             <p>
                 <label>
                     Which Coin?
-                    <select name="which-coin">
+                    <select name="which-coin" id="which-coin">
                         <option value="quarter">Quarter</option>
                         <option value="dime">Dime</option>
                         <option value="nickel">Nickel</option>
@@ -27,14 +27,15 @@
                     </select>
                 </label>
             </p>
-            <button id="make-money">
-                Make Money!
-            </button>
+            <input type="submit" value="Make Money">
         </form>
+        <div>
+            <!-- coins will go here -->
+        </div>
+        <!-- <div id="dime" class="coin">Dime</div>
         <div id="penny" class="coin">Penny</div>
-        <div id="nickel" class="coin"></div>
-        <div id="dime" class="coin"></div>
-        <div id="quarter" class="coin"></div>
+        <div id="nickel" class="coin">Nickel</div>
+        <div id="quarter" class="coin">Quarter</div> -->
         
         <script src="DOMEx4.js" async defer></script>
     </body>

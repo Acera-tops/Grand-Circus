@@ -1,24 +1,52 @@
 body{
-/* display: flex;
-justify-content: center; */
+display: flex;
+justify-content: center;
+font-family: Arial, Helvetica, sans-serif;
 }
 
 #how-many {
     width: 70px;
 }
 
+#which-coin{
+    width: 70px;
+}
+
+button{
+    background-color: rgb(9, 156, 156);
+    padding: 5%;
+    border-style: groove;
+}
+
 .coin {
     text-align: center;
-    text-justify: center;
     border-radius: 50%;
 }
 
 #penny {
     background-color:#b3773f;
-    /* text-align: center;
-    text-justify: center; */
     border:2px solid #774e27;
+    height: 75px;
+    width: 75px;
+}
+
+#nickel {
+    background-color:silver;
+    border:2px solid gray;
     height: 100px;
     width: 100px;
-    /* border-radius: 50%; */
+}
+
+#dime {
+    background-color:silver;
+    border:2px solid gray;
+    height: 50px;
+    width: 50px;
+}
+
+#quarter {
+    background-color:silver;
+    border:2px solid gray;
+    height: 125px;
+    width: 125px;
 }
